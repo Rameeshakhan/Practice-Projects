@@ -13,6 +13,15 @@ class person{
         }
 }
 
+//subclass 
+
+class Customer extends person{
+    constructor(name,age, education){
+        super(name,age) //super for already defined this properties 
+        this.education = education;
+    }
+}
+
 //prototype
 person.prototype.goodBye = function(name){
     return `good bye ${name}`
@@ -23,6 +32,9 @@ console.log(p1)
 
 console.log(p1.greetings())
 console.log(p1.goodBye("rameeha"))
+
+const c1 = new Customer("beenish" , 23 , "MBBS")
+console.log(c1)
 
 
 
