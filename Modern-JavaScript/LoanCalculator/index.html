@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LOan Calculator</title>
+</head>
+<body>
+    <div class="input-div">
+        <label>Loan Amount</label>
+        <input type="number" id = "loan-amount">
+        <label>Interest % </label>
+        <input type="number" id = "interest-percentage">
+        <label>Payback Years</label>
+        <input type="number" id = "payback-years">
+        <button id = "calculate">Calculate</button>
+    </div>
+    <div class="output-div">
+        <label>Monthly payment amount (Rs.): </label> <span id="monthly-pay-ammount"></span> <br>
+        <label>total payment amount (Rs.): </label> <span id="total-payment"></span> <br>
+        <label>Total Interest (Rs.): </label><span id="Total Interest"></span> <br>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
