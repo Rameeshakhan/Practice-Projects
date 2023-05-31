@@ -1,0 +1,7 @@
+upper-container{
+    margin: auto;
+}
+
+inner-container{
+    border: 1px solid black;
+}
