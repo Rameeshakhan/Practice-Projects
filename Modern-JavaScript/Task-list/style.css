@@ -1,0 +1,16 @@
+/* Font Awesome styles */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.fa-times {
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+}
+
+upper-container{
+    margin: auto;
+}
+
+inner-container{
+    border: 1px solid black;
+}
