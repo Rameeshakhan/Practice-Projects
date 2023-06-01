@@ -1,0 +1,36 @@
+body{
+    background-color: #ececec;
+}
+.btn-div{
+    display: flex;
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(90, 6, 169);
+    font-family: "outfit";
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    border: 1px solid rgb(90, 6, 169);
+    background-color: #ffffff;
+    color: rgb(90, 6, 169);
+    border-radius: 5px;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#customer, #customers {
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
