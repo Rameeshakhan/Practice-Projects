@@ -10,12 +10,12 @@ height: auto;
 display: block;
 padding:30px;
 box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.4);
+background-color: pink;
 
 .input{
     display: block;
     width: 100%;
     padding:5px;
-    // margin:5px;
 }
 .label{
     display: block;
